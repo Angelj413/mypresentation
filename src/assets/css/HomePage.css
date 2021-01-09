@@ -155,3 +155,26 @@ DESCRIPTION
   background: transparent;
   color: #FFF;
 }
+
+.ContentTimeLine{
+  height: 100%;
+  overflow-y: overlay;
+  width: 100%;
+}
+
+.ContentPortfolio{
+  height: 100%;
+  overflow-y: overlay;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20%;
+}
+
+#root > div > div > div > div.ContentPresentation.WorkPage > div > a > div > div.styles__card-content___1YN-b > div.styles__thumbnail___1COvL > img{
+  width: 100%;
+}
+
+.styles__card-content___1YN-b .styles__tags___qChO4{
+  margin-top: 10px;
+}
