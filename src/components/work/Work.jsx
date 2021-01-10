@@ -21,8 +21,8 @@ function Work({page, setPage}) {
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: 'rgb(240 107 61) ', color: '#fff' }}
-              contentArrowStyle={{ borderRight: '7px solid  rgb(240 107 61) ' }}
+              contentStyle={{ background: 'rgb(52, 118, 210) ', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '7px solid  rgb(52, 118, 210) ' }}
               date="2019 - present"
               iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
               icon={<FaNetworkWired />}

@@ -37,21 +37,21 @@ function Portfolio({page, setPage}) {
             />
             <TaggedContentCard
               thumbnail = {CCS}
-              href = {'https://angelj413.github.io/feynmans2.0/'}
+              href = {'https://angelj413.github.io/CentroCristianoSobrenatural/'}
               title =  { `Centro Cristiano de lo Sobrenatural` }
               description = ' Introductory website for the Christian Center of the Supernatural. '
               tags = {['HTML', 'CSS', 'Javascript', 'PHP']}
             />
             <TaggedContentCard
               thumbnail = {Ginestin}
-              href = {'https://angelj413.github.io/feynmans2.0/'}
+              href = {'https://angelj413.github.io/ginestin/'}
               title =  { `Ginestin (Feynman's)` }
               description = {` Introductory website for Ginestin. Working for Feynman's`}
               tags = {['HTML', 'CSS', 'Javascript', 'PHP']}
             />
             <TaggedContentCard
               thumbnail = {Old}
-              href = {'https://angelj413.github.io/feynmans2.0/'}
+              href = {'https://angelj413.github.io/AngelMorante/'}
               title =  { `Angel Morante (Old Page)` }
               description = 'Old Portfolio'
               tags = {['HTML', 'CSS', 'Javascript', 'PHP']}
