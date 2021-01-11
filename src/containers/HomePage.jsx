@@ -4,6 +4,7 @@ import '../assets/css/HomePage.css'
 import Presentation from '../components/presentation/Presentation'
 import Work from '../components/work/Work'
 import Portfolio from '../components/portfolio/Portfolio'
+import Skills from '../components/skills/Skills'
 
 
 const HomePage = () => {
@@ -23,6 +24,11 @@ const HomePage = () => {
                 />)
       case 'portfolio':
         return (<Portfolio 
+                page = {page}
+                setPage = {setPage}
+                />)
+      case 'skills':
+        return (<Skills 
                 page = {page}
                 setPage = {setPage}
                 />)

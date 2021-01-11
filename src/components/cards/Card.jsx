@@ -12,6 +12,7 @@ function Card({children,width, height, links, page, setPage}) {
           {page !== 'work' && <div className='Link' onClick={ e => setPage('work')}>Work Exp</div> }
           {/* {page !== 'academic' && <div className='Link' onClick={ e => setPage('academic')}>Academic Exp</div> } */}
           {page !== 'portfolio' && <div className='Link' onClick={ e => setPage('portfolio')}>Portfolio</div> }
+          {page !== 'skills' && <div className='Link' onClick={ e => setPage('skills')}>Skills</div> }
         </div>
       : null
       }
